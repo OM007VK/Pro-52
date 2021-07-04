@@ -1,0 +1,68 @@
+h1 {color: #000000}
+
+.title 
+{
+    background-color: #6bcab2;
+    display : flex;
+    justify-content: space-between;
+}
+.Cricketers
+{
+    background-color: #5b0f00;
+    display: flex;
+    justify-content: space-around;
+}
+.youtubediscord
+{
+    background-color: #5b0f00;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.items
+{
+    position: relative;
+}
+
+.items p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.items:hover p
+{
+    opacity: 1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.items:hover img
+{
+    opacity: .3;
+}
+
+.menuitem
+{
+    margin-left : 20px;
+}
+
+.menuitem:hover
+{
+    border-bottom: solid rgb(0, 0, 0);
+}
+
+.menu
+{
+  margin-top: 25px;
+  display: flex;
+}
+
+a:link 
+{
+   color: rgb(0, 0, 0); 
+   font-size: x-large;
+   text-decoration: none;
+}
